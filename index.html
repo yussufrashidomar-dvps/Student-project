@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>system</title>
+        <link rel="stylesheet" href="external.css">
+       
+         
+    </head>
+    <body>
+
+
+       <header>
+        <div class="logo">
+            <span class="logo_icon">🎓</span>
+
+            <span>student managment system!!</span>
+        </div>
+
+        
+      </header><br>
+      <section class="hero">
+        <div class="text">
+                <h1>
+                WELCOME TO STUDENT
+                MANAGMENT SYSTEM
+                </h1>
+                <br>
+                <P>manage your students easly</P><br>
+                <button onclick="window.location.href='#'">👤Login</button>
+                <button id="getstarted" onclick="window.location.href='#'">➡️Get start</button>
+        </div>
+
+        <div class="image">
+            <div class="book">
+                <div class="red">📚</div>
+                <div class="cap">🎓</div>
+                <div class="garden">🎉</div>
+            </div>            
+        </div>
+      </section>
+
+     <div class="modal" id="rolemodel">
+      <div class="modelcontent">
+      <h2>choose your role</h2>
+      <p>select how you want to aaccess the systm</p>
+      <div class="popup">
+        <div class="role-button" id="majina">
+        <button onclick="window.location.href='adminlogin.php'">🫂Admin</button>
+        <button onclick="window.location.href='studentlogin.php'">🧑🏿‍🤝‍🧑StudentS</button>
+        </div>
+        <button id="closemodel">Cancel</button>
+      </div>
+     </div>
+     </div>
+
+      <section class="feature">
+        <div class="card">
+            <div class="card-icon">🧑‍🎓</div>
+            <h2>Students</h2>
+            <p>manage student information and keep records updated.</p>
+            <a href="viewstudent.php">view students</a>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="card-icon">📘</div>
+            <h2>courses</h2>
+            <p>manage courses and subjects present </p>
+        
+            <a href="course.php">Our subject</a>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="card-icon">📊</div>
+            <h2>Result</h2>
+            <p>view and manage student result</p>
+            <a href="result.php">view result</a>
+        </div>
+        </div>
+
+      </section>
+
+      <footer>
+        <p>© 2026 Student Managment system. All write reserved.</p>
+      </footer>
+    
+    </body>
+</html>
+<script>
+
+  const batani= document.getElementById('getstarted');
+
+  const batan = document.getElementById('majina');
+
+  const close = document.getElementById('closemodel');
+
+  getstarted.addEventListener("click",
+  function() {
+    rolemodel.style.display = "flex";} );
+  
+  closemodel.addEventListener("click",
+    function() {
+      rolemodel.style.display = "none";});
+</script>
