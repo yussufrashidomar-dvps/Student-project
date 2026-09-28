@@ -1,0 +1,122 @@
+.size{
+    width: 90%;
+    max-width: 12000px;
+    margin: auto;
+}
+
+@media (max-width:600px) {
+    .size{
+        width: 95%;
+    }
+}
+
+
+
+.Dashboard-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 7%;
+    background: #0b1f3a;
+    color: white;
+}
+
+.Dashboard-header .logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.admin-info {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.admin-info a{
+    color: cadetblue;
+}
+
+.dashbord{
+    padding: 50px 7%;
+}
+
+.dashbord-title{
+    margin-bottom: 35px;
+}
+
+.dashbord-title h1{
+    margin-bottom: 8px;
+}
+
+.dashbord-title p{
+    color: #666;
+}
+
+.dashbord-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+.dashbord-card{
+    background: #2583ed;
+    padding: 30px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px,solid black;
+    box-shadow: 20px;
+}
+
+.dashbord-icon{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.dashbord-card h2{
+    margin-bottom: 10px;
+}
+
+.dashbord-card p{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dashbord-card a{
+    text-decoration: none;
+    color: black;
+}
+
+.dashbord-card a:hover{
+    text-decoration: underline;
+
+}
+
+.Quick{
+    margin-top: 50px;
+}
+.Quick h2{
+    margin-top: 20px;
+}
+
+.action{
+    display: flex;
+    gap: 20px;
+}
+.action a{
+    text-decoration: none;
+    background: #2583ed;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 8px;
+}
+.action a:hover{
+    background: blue;
+}
+
+footer{
+    text-align: center;
+    padding: 25px;
+    color: 25px;
+    color: #666;
+}
