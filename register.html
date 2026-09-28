@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>register</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+    <div class="container" >
+        <form action="insertstudent.php" method="post">
+        <h1>REGISTER THE STUDENT IN SCHOOL </h1>
+
+        <label>full name</label>
+        <input type="text" name="full_name" required><br>
+
+        <label>course</label>
+        <select name="course" required>
+            <option value="software engineering">software engineering;</option>
+            <option value="computer scince">computer scince;</option>
+            <option value="Information Technology">Information Technology;</option>
+            <option value="cybersecuririty">cybersecuririty;</option>
+            <option value="Business information system">Business information system;</option>
+        </select> <br>
+
+        <label>telephone_no</label>
+        <input type="tel" name="telephone_no" required><br>
+
+        <label>username</label>
+        <input type="text" name="username" required><br>
+
+        <label>password</label>
+        <input type="password" name="password" required><br>
+
+        <label>Conferm password</label>
+        <input type="password" name="conferm_password" required><br>
+
+        <input type="submit" name="button" class="batan">
+        </form>
+
+        
+    </div>
+
+    </body>
+    <footer>
+        <p>© 2026 Student Managment system. All write reserved.</p>
+    </footer>
+</html>
